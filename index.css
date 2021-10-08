@@ -1,0 +1,76 @@
+:root {
+    --color1: #6C63FF;
+    --gray: rgb(49, 49, 49);
+}
+
+body {
+    font-family: 'Cabin', sans-serif !important;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        margin: 16px !important;
+    }
+}
+
+h1 {
+    color: var(--color1);
+    font-weight: 600 !important;
+}
+
+div.icons > a {
+    margin-right: 15px;
+}
+
+input {
+    background-color: rgb(240, 240, 240) !important;
+}
+
+input:focus {
+    background-color: white !important;
+}
+
+p {
+    color: var(--gray);
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px !important;
+}
+
+a.chk-link {
+    color: var(--color1) !important;
+}
+
+button.signup {
+    background-color: var(--color1);
+    border: var(--color1);
+    color: white;
+    padding: 12px;
+}
+
+button.signup:hover {
+    color: white;
+}
+
+button.signin {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    padding: 12px;
+}
+
+button.signin:hover {
+    background-color: var(--color1);
+    color: white;
+}
+
+.col2 {
+   display: flex;
+   align-items: center;
+}

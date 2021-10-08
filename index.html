@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container shadow-lg p-lg-5 rounded-lg">
+        <div class="row">
+            <div class="col-lg-6 text-center p-lg-5 order-lg-1 order-2">
+                <h1 class="mb-lg-3 mb-3">Create Account</h1>
+                <div class="icons">
+                    <a href="#"><img src="images/google.png" alt="google" width="28px"></a>
+                    <a href="#"><img src="images/facebook-3.png" alt="facebook"></a>
+                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
+                </div>
+                <p class="mt-lg-3 mt-3">or use your email for registration:</p>
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" id="email" required>
+                    </div>
+                    
+                    <div class="fotm-group">
+                        <input type="password" class="form-control" placeholder="Password" id="password" required> 
+                    </div>
+
+                    <div class="form-group form-check text-left mt-lg-3 mt-3">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" required>&nbsp; &nbsp;  I agree to the <a href="#" class="chk-link">Terms</a> and <a href="#" class="chk-link">Privacy Policy</a>.
+                        </label>
+                      </div>
+
+                      <div class="row mt-lg-3 mt-3 ">
+                        <div class="col-lg-6">
+                            <button class="btn btn-block signup">Signup</button>
+                        </div>
+                        <div class="col-lg-6 pb-5 pb-lg-0">
+                            <button class="btn btn-block signin mt-lg-0 mt-3">Signin</button>
+                        </div>
+                      </div>
+                  </form>
+            </div>
+
+            <div class="col-lg-6 col2 order-lg-2 order-1 pt-5 pt-lg-0">
+                <img src="images/form-pic.svg" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
